@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.navbar button {
+  border: 1px solid rgb(43, 190, 104);
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: white;
+  color: rgb(43, 190, 104);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar button:hover {
+  background-color: rgb(43, 190, 104); /* Green background on hover */
+  color: white;
+}
+  

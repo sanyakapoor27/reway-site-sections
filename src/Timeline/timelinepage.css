@@ -1,0 +1,41 @@
+
+.timeline-title {
+  font-size: 45px;
+  padding-top: 40pxpx;
+  padding-bottom: 60px;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(53, 114, 85);
+}
+
+.timeline-title span{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(125, 207, 105);
+}
+
+.vertical-timeline-element-title{
+  padding-top: 0.25em;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.vertical-timeline-element-content {
+  
+  padding: 2em 3em !important;
+}
+
+.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns::before{
+  background: linear-gradient( rgb(176, 255, 156), rgb(4, 165, 90));
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}

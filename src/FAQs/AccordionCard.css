@@ -1,0 +1,69 @@
+.accordion-card {
+    border-radius: 10px;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.353);
+    background: linear-gradient(45deg, rgb(53, 241, 131) 10%, rgb(18, 214, 60) 90.2%);
+    background-position: 200% 200%;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  .topic-name {
+    font-size: 45px;
+    margin-bottom: 34px;
+    font-weight: bolder;
+    color: white;
+  }
+  
+  .accordion-item {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1); /* Semi-transparent line between questions */
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .accordion-btn {
+    justify-content: space-between; 
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+  }
+
+.toggle-btn {
+    display: flex;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: left;
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    border: none;
+    background:none;
+    color: white;
+  }
+  
+  .accordion-btn:hover,
+  .toggle-btn:hover {
+    border:none;
+    background: none;
+    color: #dddcdc;
+    transform: color 0.3s ease;
+  }
+  
+  .accordion-content {
+    padding-top: 15px;
+    color: white;
+    margin-left: 35px;
+    margin-right: 350px;
+    font-size: 20px;
+    font-weight: 450;
+  }

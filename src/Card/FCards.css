@@ -1,0 +1,26 @@
+.sdg-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(62, 170, 89); /* Adjust color as needed */
+    font-weight: bold;
+    padding: 10px;
+    
+  }
+  
+  .sdg-title-2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 80px;
+    color: rgb(10, 11, 112);
+  }
+  .container-fluid {
+    padding: 0 15px; /* Adjust padding as needed */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
